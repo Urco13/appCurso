@@ -24,6 +24,9 @@ import { Fechaactual2Component } from './fechaactual2/fechaactual2.component';
 import { Fechaactual3Component } from './fechaactual3/fechaactual3.component';
 import { Fechaactual4Component } from './fechaactual4/fechaactual4.component';
 import { Fechaactual5Component } from './fechaactual5/fechaactual5.component';
+import { Fechaactual6Component } from './fechaactual6/fechaactual6.component';
+import { EuroPipe } from './euro.pipe';
+import { Fechaactual7Component } from './fechaactual7/fechaactual7.component';
 
 @NgModule({
   declarations: [
@@ -48,7 +51,10 @@ import { Fechaactual5Component } from './fechaactual5/fechaactual5.component';
     Fechaactual2Component,
     Fechaactual3Component,
     Fechaactual4Component,
-    Fechaactual5Component
+    Fechaactual5Component,
+    Fechaactual6Component,
+    EuroPipe,
+    Fechaactual7Component
   ],
   imports: [
     BrowserModule,
